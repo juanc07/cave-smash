@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="Application" />
+    <movie input="" />
+    <movie path="bin\cavesmash.swf" />
+    <movie fps="30" />
+    <movie width="640" />
+    <movie height="480" />
+    <movie version="11" />
+    <movie minorVersion="7" />
+    <movie platform="Flash Player" />
+    <movie background="#FFFFFF" />
+    <movie preferredSDK="Flex 4.6.0, AIR 3.1;4.6.0, 3.1;" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+    <class path="lib\jesses-wck-5945c35\jesses-wck-5945c35" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option accessible="False" />
+    <option advancedTelemetry="False" />
+    <option allowSourcePathOverlap="False" />
+    <option benchmark="False" />
+    <option es="False" />
+    <option inline="False" />
+    <option locale="" />
+    <option loadConfig="" />
+    <option optimize="True" />
+    <option omitTraces="True" />
+    <option showActionScriptWarnings="True" />
+    <option showBindingWarnings="True" />
+    <option showInvalidCSS="True" />
+    <option showDeprecationWarnings="True" />
+    <option showUnusedTypeSelectorWarnings="True" />
+    <option strict="True" />
+    <option useNetwork="True" />
+    <option useResourceBundleMetadata="True" />
+    <option warnings="True" />
+    <option verboseStackTraces="False" />
+    <option linkReport="" />
+    <option loadExterns="" />
+    <option staticLinkRSL="True" />
+    <option additional="" />
+    <option compilerConstants="" />
+    <option minorVersion="" />
+  </build>
+  <!-- SWC Include Libraries -->
+  <includeLibraries>
+    <!-- example: <element path="..." /> -->
+  </includeLibraries>
+  <!-- SWC Libraries -->
+  <libraryPaths>
+    <element path="lib\adobeSwc\as3corelib.swc" />
+    <element path="lib\3rdPartyLib\greensock.swc" />
+    <element path="lib\jesses-wck-5945c35\jesses-wck-5945c35\Box2DAS\Box2D.swc" />
+    <element path="lib\CJSignals 1.0.32.swc" />
+    <element path="lib\Stardust 1.3.186.swc" />
+    <element path="lib\PreloaderStar.swc" />
+    <element path="lib\AG_splash_bike_v5.swc" />
+    <element path="lib\EditorAssets.swc" />
+    <element path="lib\levelEndArt.swc" />
+    <element path="lib\GameHudArt.swc" />
+    <element path="lib\ScrollBarAsset.swc" />
+    <element path="lib\3rdPartyLib\as3corelib.swc" />
+    <element path="lib\particleAsset.swc" />
+    <element path="lib\caveSmashBgmSfx.swc" />
+    <element path="lib\caveSmashAssets\caveSmashTitle.swc" />
+    <element path="lib\TheMiner_en.swc" />
+    <element path="lib\caveSmashAssets\bg.swc" />
+    <element path="lib\caveSmashAssets\levelEditorUI\levelEditorUI.swc" />
+    <element path="lib\caveSmashAssets\caveSmashGUI.swc" />
+    <element path="lib\caveSmashAssets\caveSmashGpx.swc" />
+    <element path="lib\caveSmashDev.swc" />
+    <element path="lib\caveSmashAssets\LevelMapGUI.swc" />
+    <element path="lib\caveSmashAssets\howtoplay.swc" />
+    <element path="lib\caveSmashAssets\scenes.swc" />
+    <element path="lib\spil\Preloader.swc" />
+    <element path="lib\spil\UserDataPane.swc" />
+    <element path="lib\caveSmashAssets\newBgForSpil\spilBG.swc" />
+    <element path="lib\spil\CSLocalizationPack.swc" />
+  </libraryPaths>
+  <!-- External Libraries -->
+  <externalLibraryPaths>
+    <!-- example: <element path="..." /> -->
+  </externalLibraryPaths>
+  <!-- Runtime Shared Libraries -->
+  <rslPaths>
+    <!-- example: <element path="..." /> -->
+  </rslPaths>
+  <!-- Intrinsic Libraries -->
+  <intrinsics>
+    <!-- example: <element path="..." /> -->
+  </intrinsics>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <!-- example: <asset path="..." id="..." update="..." glyphs="..." mode="..." place="..." sharepoint="..." /> -->
+  </library>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="src\Main.as" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path="obj" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="False" />
+    <option testMovie="Default" />
+    <option testMovieCommand="" />
+  </options>
+  <!-- Plugin storage -->
+  <storage />
+</project>

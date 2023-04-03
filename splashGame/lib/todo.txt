@@ -1,0 +1,25 @@
+1. level generator tile base - so that you can design each level because its not
+random
+2. collectible items - coin/rings, birds, pots
+3. the diver/ hero
+4. the splash when hero reach the pool
+5. splash effects good, verygood, perfect
+6. complete here animation for each dive
+7. the judge scorer radom based on dive category good, verygood, perfect
+8. score effects when canon ball stunt is used to finish the game
+9. different animation for different stunts of hero
+10. HighScorer updater
+11. ring updater
+12. tutorial window on how to play the  game
+13. some buttons sound
+14. moving background clouds, stars,
+15. diving start area animation
+16. specail stunt trigger
+17. nice background in the space 
+18. text message effect when  finish game
+19. splash score animation effect when finish game with awesomeness
+20. animation of people on the pool depend on dive performance 3 types
+21. water effect animation when hero is on the pool when end level
+22. a pool area and a house with reflection effect when finish level with background.
+23. animation effects when hit birds and pots
+24. hero hit animation
